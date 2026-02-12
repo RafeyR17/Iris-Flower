@@ -1,0 +1,25 @@
+# Environment files
+.venv/
+venv/
+iris_venv/
+env/
+bin/
+lib/
+share/
+pyvenv.cfg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Data and Models
+*.joblib
+
+# Plots
+*.png
+
+# System files
+.DS_Store
+Thumbs.db
