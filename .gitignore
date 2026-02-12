@@ -1,25 +1,22 @@
-# Environment files
-.venv/
-venv/
-iris_venv/
-env/
-bin/
-lib/
-share/
-pyvenv.cfg
-
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.venv/
+venv/
+ENV/
+*.env
 
-# Data and Models
-*.joblib
+# Jupyter / EDA outputs
+*.ipynb_checkpoints/
+*.ipynb
+*.png   # remove this line if you WANT to upload the plots
+*.jpg
 
-# Plots
-*.png
-
-# System files
+# macOS / Windows junk
 .DS_Store
 Thumbs.db
